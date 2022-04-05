@@ -1,0 +1,58 @@
+body{
+    background-color: pink;
+}
+
+/*dispositivos moviles*/
+@media screen and (min-width: 320px){
+    body{
+        background-color: aqua;
+    }
+
+    .container{
+        border: solid 1px black;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+
+    p{
+        position: absolute;
+    }
+}
+    
+    /*tabletas*/
+@media screen and (min-width: 768px){
+        body{
+            background-color:aquamarine
+        }
+}
+    
+    /*pantallas pequeñas(mas grande que una tableta o landscape tablet)*/
+@media screen and (min-width: 980px){
+        body{
+            background-color:blue
+        }
+}
+    
+    /*pantallas medianas*/
+@media screen and (min-width: 1024px){
+        body{
+            background-color:brown
+        }
+}
+    
+    /*pantallas grandes*/
+@media screen and (min-width: 1200px){
+    body{
+        background-color:blueviolet
+    }
+    }
+
+    .container{
+        position: relative;
+    }
+
+    p{
+        position: relative;
+    }
